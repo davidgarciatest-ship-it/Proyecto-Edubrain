@@ -12,7 +12,7 @@ export function TagInput({ items, placeholder, onAdd, onRemove }: Props) {
       <View style={styles.chipRow}>
         {items.map((s, i) => (
           <TouchableOpacity key={i} style={styles.chip} onPress={() => onRemove(i)}>
-            <Text style={styles.chipText}>{s} ×</Text>
+            <Text style={styles.chipText}>{s} HOLA</Text>
           </TouchableOpacity>
         ))}
       </View>
