@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+backend/data/
+backend/dist/
+*.db
+.expo/
+.vscode/
+.idea/
+*.log
